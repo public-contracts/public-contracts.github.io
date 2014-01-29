@@ -1,27 +1,125 @@
-<div class="jumbotron">
-  <div class="container">
-    <h1>Public Contracts is simple and powerful</h1>
-    <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-    <p><a class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+<div class="showcase">
+  <div class="jumbotron">
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" style="height:200px;">
+        <div class="item active">
+          <table>
+            <tr>
+              <td>
+                <img src="svg/global.svg">
+              </td>
+              <td>
+                <h1>
+                  It's Open & Free
+                </h1>
+                <ul>
+                  <li>All components is an opensource and released under the <a href="http://www.gnu.org/copyleft/lesser.html" target="_blank">LGPL</a> license</li>
+                  <li>Anyone can join us to use, discussion and development</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="item">
+          <table>
+            <tr>
+              <td>
+                <img src="svg/community.svg">
+              </td>
+              <td>
+                <h1>It's Public & Decentralized</h1>
+                <ul>
+                  <li>The network uses only P2P interaction without discrimination</li>
+                  <li>All digital contracts are public and are distributed throughout the network</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="item">
+          <table>
+            <tr>
+              <td>
+                <img src="svg/contract.svg">
+              </td>
+              <td>
+                <h1>It's Safe</h1>
+                <ul>
+                  <li>The network uses only safe and economical connections</li>
+                  <li>Digital contracts use secure cryptographic signatures</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="item">
+          <table>
+            <tr>
+              <td>
+                <img src="svg/like.svg">
+              </td>
+              <td>
+                <h1>It's Easy</h1>
+                <ul>
+                  <li>The network uses the most popular Internet standards</li>
+                  <li>Community provides all the necessary software</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="3"></li>
+      </ol>
     </div>
   </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+  <h1>Network features</h1>
+
+  <div class="row">
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <img src="svg/discussion.svg">
+        <div class="caption">
+          <h3>Public vote</h3>
+          Public decentralized vote in which everyone can create, accept or discard petitions.
+        </div>
       </div>
-      <div class="col-lg-4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
     </div>
-    <div class="col-lg-4">
-      <h2>Heading</h2>
-      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <img src="svg/money.svg">
+        <div class="caption">
+          <h3>Worldwide payments</h3>
+          Public decentralized virtual coin transfers that anyone can make by performing computational work.
+        </div>
+      </div>
     </div>
-  </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <img src="svg/contract.svg">
+        <div class="caption">
+          <h3>Digital Contracts</h3>
+          Public decentralized distribution and digital signature of contracts with end time.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <img src="svg/anonymous.svg">
+        <div class="caption">
+          <h3>Anonymous search</h3>
+          Querying with the identifier search for a response from the desired person and one-on-one interaction.
+        </div>
+      </div>
+    </div>
 </div>
+
+<script type="text/javascript">
+  $('#carousel').carousel();
+</script>

@@ -2,3 +2,36 @@ body{
   padding-top: 50px;
   padding-bottom: 20px;
 }
+
+.carousel-control{
+  width: inherit;
+}
+
+.carousel-control.left, .carousel-control.right{
+  background-image: inherit;
+}
+
+.carousel-indicators{
+  bottom: inherit;
+}
+
+/* showcase controller */
+
+.showcase .carousel-inner .item img{
+  float: left;
+  height: 160px;
+  margin-right: 60px;
+}
+
+.showcase .thumbnail{
+  border:0;
+  box-shadow:inherit;
+}
+
+.showcase .thumbnail img{
+  height: 128px;
+}
+
+.showcase .thumbnail .caption h3{
+  text-align: center;
+}

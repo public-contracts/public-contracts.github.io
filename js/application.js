@@ -22,4 +22,3 @@ window.App.config(function($locationProvider, $routeProvider){
   $routeProvider.otherwise({redirectTo: '/showcase'});
   //$locationProvider.hashPrefix('!');
 });
-
